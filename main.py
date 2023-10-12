@@ -4,6 +4,9 @@ from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
+# L1 regularization (Lasso) adds the absolute values of the model's coefficients (weights) as a penalty term to the cost
+# function.
+
 # Sample data
 data = {
     'X1': [1, 2, 3, 4, 5],
